@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # Copy the Spring Boot JAR into the container
-COPY target/<YOUR_JAR_FILE>.jar app.jar
+COPY target/email.jar
 
 # Expose port 8080
 EXPOSE 8081
